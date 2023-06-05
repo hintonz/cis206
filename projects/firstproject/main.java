@@ -37,9 +37,9 @@ public class Main {
         
         Mountain smallest = minElevation(mountains);
         System.out.println("\nMountain with smallest elevation:");
-        System.out.println("Name: "+smallest.getName());
-        System.out.println("Country: "+smallest.getCountry());
-        System.out.println("Elevation (ft): "+smallest.getElevation());
+        System.out.println("Name: "+ smallest.getName());
+        System.out.println("Country: "+ smallest.getCountry());
+        System.out.println("Elevation (ft): "+ smallest.getElevation());
 
     }
 }
