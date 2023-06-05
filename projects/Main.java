@@ -1,6 +1,6 @@
 public class Main {
 
-    public static Mountain minElevation(Mountain mountains[]) {
+    public static Mountain minElevation(Mountain mountains[]) {                                          //Function to set minimum Elevation
 
         int minIndex = 0;
         for (int i = 0; i < mountains.length; i++) {
