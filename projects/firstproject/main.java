@@ -15,13 +15,13 @@ public class Main {
 
 
         Mountain mountains[] = new Mountain[7];
-        mountains[0] = new Mountain("Chimborazo", "Ecudador", 20549);
-        mountains[1] = new Mountain("Matterhorn", "Switzeland", 14692);
-        mountains[2] = new Mountain("Olympus", "Geece", 9573);
-        mountains[3] = new Mountain("Everest", "Nepal", 290929);
-        mountains[4] = new Mountain("Adirondacks", "United Staes", 5344);
+        mountains[0] = new Mountain("Chimborazo", "Ecuador", 20549);
+        mountains[1] = new Mountain("Matterhorn", "Switzerland", 14692);
+        mountains[2] = new Mountain("Olympus", "Greece", 9573);
+        mountains[3] = new Mountain("Everest", "Nepal", 29029);
+        mountains[4] = new Mountain("Adirondacks", "United States", 5344);
         mountains[5] = new Mountain("Blue Ridge", "United States", 6684);
-        mountains[6] = new Mountain("Zugpitze", "Switzerland", 9719);
+        mountains[6] = new Mountain("Zugspitze", "Switzerland", 9719);
 
         System.out.printf("%-20s%-20s%10s%20s\n",
                 "Mountain Name","Country","Elevation (ft)", "Elevation (mts)"
