@@ -17,7 +17,7 @@ public class Mountain {
         this.elevation = elevation;
     }
 
-    //setters
+    
 
     public void setName(String name) {
         this.name = name;
@@ -31,7 +31,7 @@ public class Mountain {
         this.elevation = elevation;
     }
 
-    // getters
+    
 
     public String getName() {
         return name;
@@ -41,7 +41,7 @@ public class Mountain {
         return country;
     }
     
-    \\yesy
+  
 
     public int getElevation() {
         return elevation;
@@ -49,8 +49,8 @@ public class Mountain {
 
     public static double toMeters(double elevationInFeets) {
 
-        final double FEET_TO_METER = 1 / 3.2808;
-        return elevationInFeets * FEET_TO_METER;
+        final double FEET_TO_METERS = 1 / 3.2808;
+        return elevationInFeets * FEET_TO_METERS;
     }
 
 }
