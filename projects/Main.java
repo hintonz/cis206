@@ -23,14 +23,14 @@ public class Main {
         mountains[5] = new Mountain("Mount Mitchell - Blue Ridge", "United States", 6684);
         mountains[6] = new Mountain("Zugspitze", "Switzerland", 9719);
 
-        System.out.printf("%-30s%-20s%10s%20s\n",
+        System.out.printf("%-30s%-20s%10s%20s\n",                                                           //Information table with formatting
                 "Mountain","Country","Elevation (ft)", "Elevation (m)"
 
                 );
-        for (Mountain mountain : mountains) {
+        for (Mountain mountain : mountains) {                                                               //Print function loop with formatting
 
             System.out.printf("%-30s%-20s%10d%20.2f\n",
-                    mountain.getName(), mountain.getCountry(), mountain.getElevation(),
+                    mountain.getName(), mountain.getCountry(), mountain.getElevation(),                     
                     Mountain.toMeters(mountain.getElevation())
             );
         }
